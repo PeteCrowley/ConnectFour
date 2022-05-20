@@ -34,6 +34,7 @@ public class ConnectFour implements BoardGame{
         }
     }
 
+
     private boolean ascendingDiagCheck(int r, int c){
         int count = 0;
         while(r + count >= 3 && c + count >= 3){
